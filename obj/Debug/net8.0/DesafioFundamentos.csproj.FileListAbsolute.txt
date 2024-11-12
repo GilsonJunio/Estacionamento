@@ -1,0 +1,14 @@
+/home/gilson/Programacao/Puxado-do-Github/Estacionamento/bin/Debug/net8.0/DesafioFundamentos
+/home/gilson/Programacao/Puxado-do-Github/Estacionamento/bin/Debug/net8.0/DesafioFundamentos.deps.json
+/home/gilson/Programacao/Puxado-do-Github/Estacionamento/bin/Debug/net8.0/DesafioFundamentos.runtimeconfig.json
+/home/gilson/Programacao/Puxado-do-Github/Estacionamento/bin/Debug/net8.0/DesafioFundamentos.dll
+/home/gilson/Programacao/Puxado-do-Github/Estacionamento/bin/Debug/net8.0/DesafioFundamentos.pdb
+/home/gilson/Programacao/Puxado-do-Github/Estacionamento/obj/Debug/net8.0/DesafioFundamentos.GeneratedMSBuildEditorConfig.editorconfig
+/home/gilson/Programacao/Puxado-do-Github/Estacionamento/obj/Debug/net8.0/DesafioFundamentos.AssemblyInfoInputs.cache
+/home/gilson/Programacao/Puxado-do-Github/Estacionamento/obj/Debug/net8.0/DesafioFundamentos.AssemblyInfo.cs
+/home/gilson/Programacao/Puxado-do-Github/Estacionamento/obj/Debug/net8.0/DesafioFundamentos.csproj.CoreCompileInputs.cache
+/home/gilson/Programacao/Puxado-do-Github/Estacionamento/obj/Debug/net8.0/DesafioFundamentos.dll
+/home/gilson/Programacao/Puxado-do-Github/Estacionamento/obj/Debug/net8.0/refint/DesafioFundamentos.dll
+/home/gilson/Programacao/Puxado-do-Github/Estacionamento/obj/Debug/net8.0/DesafioFundamentos.pdb
+/home/gilson/Programacao/Puxado-do-Github/Estacionamento/obj/Debug/net8.0/DesafioFundamentos.genruntimeconfig.cache
+/home/gilson/Programacao/Puxado-do-Github/Estacionamento/obj/Debug/net8.0/ref/DesafioFundamentos.dll
