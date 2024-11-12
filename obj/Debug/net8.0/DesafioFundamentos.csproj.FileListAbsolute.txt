@@ -12,3 +12,4 @@
 /home/gilson/Programacao/Puxado-do-Github/Estacionamento/obj/Debug/net8.0/DesafioFundamentos.pdb
 /home/gilson/Programacao/Puxado-do-Github/Estacionamento/obj/Debug/net8.0/DesafioFundamentos.genruntimeconfig.cache
 /home/gilson/Programacao/Puxado-do-Github/Estacionamento/obj/Debug/net8.0/ref/DesafioFundamentos.dll
+/home/gilson/Programacao/Puxado-do-Github/Estacionamento/obj/Debug/net8.0/DesafioFundamentos.sourcelink.json

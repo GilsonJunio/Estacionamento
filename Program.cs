@@ -1,4 +1,4 @@
-using DesafioFundamentos.Models;
+using SistemaEstacionamento.Models;
 
 Console.OutputEncoding = System.Text.Encoding.UTF8;
 
@@ -22,23 +22,23 @@ while (exibirMenu)
 {
     Console.Clear();
     Console.WriteLine("Digite a sua opção:");
-    Console.WriteLine("1 - Cadastrar veículo");
-    Console.WriteLine("2 - Remover veículo");
-    Console.WriteLine("3 - Listar veículos");
+    Console.WriteLine("1 - Cadastrar Carro");
+    Console.WriteLine("2 - Remover Carro");
+    Console.WriteLine("3 - Listar Carros");
     Console.WriteLine("4 - Encerrar");
 
     switch (Console.ReadLine())
     {
         case "1":
-            es.AdicionarVeiculo();
+            es.AdicionarCarro();
             break;
 
         case "2":
-            es.RemoverVeiculo();
+            es.RemoverCarro();
             break;
 
         case "3":
-            es.ListarVeiculos();
+            es.ListarCarro();
             break;
 
         case "4":

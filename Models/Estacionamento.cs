@@ -1,10 +1,10 @@
-namespace DesafioFundamentos.Models
+namespace SistemaEstacionamento.Models
 {
     public class Estacionamento
     {
         private decimal precoInicial = 0;
         private decimal precoPorHora = 0;
-        private List<string> veiculos = new List<string>();
+        private List<string> carros = new List<string>();
 
         public Estacionamento(decimal precoInicial, decimal precoPorHora)
         {
@@ -12,48 +12,48 @@ namespace DesafioFundamentos.Models
             this.precoPorHora = precoPorHora;
         }
 
-        public void AdicionarVeiculo()
+        public void AdicionarCarro()
         {
-            Console.WriteLine("Digite a placa do veículo para estacionar:");
-            veiculos.Add(Console.ReadLine());
+            Console.WriteLine("Digite a placa do Carro para estacionar:");
+            carros.Add(Console.ReadLine());
         }
 
-        public void RemoverVeiculo()
+        public void RemoverCarro()
         {
-            Console.WriteLine("Digite a placa do veículo para remover:");
+            Console.WriteLine("Digite a placa do Carro para remover:");
             string placa = Console.ReadLine();
 
-            if (veiculos.Any(x => x.ToUpper() == placa.ToUpper()))
+            if (carros.Any(x => x.ToUpper() == placa.ToUpper()))
             {
-                Console.WriteLine("Digite a quantidade de horas que o veículo permaneceu estacionado:");
+                Console.WriteLine("Digite a quantidade de horas que o Carro permaneceu estacionado:");
 
                 int horas = Convert.ToInt32(Console.ReadLine());
                 decimal valorTotal = precoInicial+precoPorHora*horas; 
 
-                veiculos.Remove(placa);
+                carros.Remove(placa);
 
-                Console.WriteLine($"O veículo {placa} foi removido e o preço total foi de: R$ {valorTotal}");
+                Console.WriteLine($"O Carro {placa} foi removido e o preço total foi de: R$ {valorTotal}");
             }
             else
             {
-                Console.WriteLine("Desculpe, esse veículo não está estacionado aqui. Confira se digitou a placa corretamente");
+                Console.WriteLine("Desculpe, esse Carro não está estacionado aqui. Confira se digitou a placa corretamente");
             }
         }
 
-        public void ListarVeiculos()
+        public void ListarCarro()
         {
-            if (veiculos.Any())
+            if (carros.Any())
             {
-                Console.WriteLine("Os veículos estacionados são:");
-                
-                foreach(string veiculo in veiculos) 
+                Console.WriteLine("Os Carros estacionados são:");
+
+                foreach(string carro in carros) 
                 {
-                Console.WriteLine(veiculo);                    
+                Console.WriteLine(carro);                    
                 }
             }
             else
             {
-                Console.WriteLine("Não há veículos estacionados.");
+                Console.WriteLine("Não há carros estacionados.");
             }
         }
     }
